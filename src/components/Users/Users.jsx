@@ -5,27 +5,25 @@ import * as axios from 'axios';
 let Users = (props) => {
 
     if (props.users.length === 0) {
-
         axios.get('http://jsonplaceholder.typicode.com/posts').then(response => {
-            props.setUsers (response)
+            props.setUsers(response)
         })
-
-        }
-
-}
-
-
+    }
 
     return <div>
         {
-            props.users.map (u => <div key = {u.id}>
+            props.users.map(u => <div key={u.id}>
                 <span>
                     <div>
-                        <img src = {u.photoUrl} className={styles.userPhoto}/>
+                        <img src={u.photoUrl} className={styles.userPhoto}/>
                     </div>
                     <div>
-                        {u.followed ?  <button onClick={() => {props.unfollow(u.id)}} >Follow</button> :
-                            <button onClick={() => {props.follow(u.id)}} >Unfollow</button>
+                        {u.followed ? <button onClick={() => {
+                                props.unfollow(u.id)
+                            }}>Follow</button> :
+                            <button onClick={() => {
+                                props.follow(u.id)
+                            }}>Unfollow</button>
                         }
                     </div>
                 </span>
@@ -41,8 +39,7 @@ let Users = (props) => {
                 </span>
             </div>)
         }
-
     </div>
-
+}
 
 export default Users;
