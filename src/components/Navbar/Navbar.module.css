@@ -1,13 +1,29 @@
-.nav{
-  grid-area: n;
-  background-color: red;
-  padding: 20px;
+.nav {
+    grid-area: n;
+    background-color: #f9c1c2;
+}
 
+.item {
+    padding: 0.5em;
 }
-.item a{
-  color:white;
-  text-decoration: none;
+
+.item:hover {
+    background-color: #f1dfc6;
+    cursor: pointer;
 }
-.item a.activeLink{
-  color: gold;
+.item:hover a {
+    color: black;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a:hover {
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: gold;
 }

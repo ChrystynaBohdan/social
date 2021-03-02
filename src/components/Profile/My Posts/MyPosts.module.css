@@ -1,10 +1,14 @@
-
-.item {
-  color: greenyellow
-}
 .postsBlock {
   padding: 10px;
 }
 .posts {
   margin-top: 10px;
+}
+.newPost {
+  width: 100%;
+  display: flex;
+}
+
+.newPost textarea {
+  flex: 1;
 }

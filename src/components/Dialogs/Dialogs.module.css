@@ -1,7 +1,6 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
-    background-color: aqua;
 }
 .dialogs NavLink{
     display: block;
@@ -20,4 +19,14 @@
 
 .messages .message {
  color: white;
+}
+
+.newMessage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newMessage textarea {
+    flex: 1;
 }

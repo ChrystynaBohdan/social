@@ -13,8 +13,6 @@ const mapStateToProps = state => {
 const Navbar = (props) => {
     return (<nav className={classes.nav}>
         <div className={classes.item}>
-        </div>
-        <div className={classes.item}>
             <NavLink to="/profile" activeClassName="s.active">Profile</NavLink>
         </div>
         <div className={classes.item}>

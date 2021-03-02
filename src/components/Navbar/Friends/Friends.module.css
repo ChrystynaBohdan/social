@@ -7,3 +7,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+.friend {
+  padding: 5px;
+}
+
+.friend:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
