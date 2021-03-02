@@ -1,0 +1,10 @@
+.imga
+{height: 50px;
+width: 50px;
+border-radius: 30%;}
+
+.dialogItem {
+    display: flex;
+    align-items: center;
+}
+

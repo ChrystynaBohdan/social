@@ -1,0 +1,9 @@
+.avatar {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+.friends {
+  display: flex;
+  justify-content: space-between;
+}

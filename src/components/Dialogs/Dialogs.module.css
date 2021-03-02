@@ -1,0 +1,23 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background-color: aqua;
+}
+.dialogs NavLink{
+    display: block;
+}
+
+.dialogsItems {
+    padding: 10px;
+    color: white;
+}
+.dialog.active {
+    color: gold;
+}
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+ color: white;
+}
